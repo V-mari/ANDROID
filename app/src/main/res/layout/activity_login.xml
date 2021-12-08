@@ -51,7 +51,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="text"
-                        android:hint="@string/user_name_or_email">
+                        android:hint="@string/user_name_or_email"
+                        android:background="@color/colorPrimary"
+                        android:textColor="@color/textView_textColor">
 
                     </com.google.android.material.textfield.TextInputEditText>
                 </com.google.android.material.textfield.TextInputLayout>
@@ -67,11 +69,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/password"
-                        android:inputType="textPassword">
+                        android:inputType="textPassword"
+                        android:textColor="@color/textView_textColor"
+                        android:background="@color/colorPrimary">
 
                     </com.google.android.material.textfield.TextInputEditText>
                 </com.google.android.material.textfield.TextInputLayout>
                 <Button
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/login"
@@ -79,9 +84,9 @@
                     android:theme="@style/RaiseButtonDark"
                     android:onClick="login"
                     android:textColor="@color/textView_textColor"
-                    >
 
-                </Button>
+                />
+
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -114,15 +119,15 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/no_tienes_cuenta"
+                        android:onClick="goCreateAccount"
                         android:text="@string/Sign_up"
                         android:textColor="@color/textView_textColor"
-                        android:textStyle="bold"
-                        android:layout_toRightOf="@+id/no_tienes_cuenta"
                         android:textSize="@dimen/textView_textSize"
-                        android:onClick="goCreateAccount"/>
+                        android:textStyle="bold" />
+
+
                 </RelativeLayout>
-
-
 
 
             </LinearLayout>
