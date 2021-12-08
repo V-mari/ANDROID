@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imageView_layoutHeight">20dp</dimen>
+    <dimen name="login_horizontalMargin">30dp</dimen>
+    <dimen name="login_marginTop">30dp</dimen>
+    <dimen name="textView_textSize">30dp</dimen>
+</resources>
